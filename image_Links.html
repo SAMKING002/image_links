@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuels File Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-item {
+            margin-bottom: 10px;
+        }
+
+        .menu-item img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the latest in technology.</p>
+        <img src="technology_image.jpg" alt="Technology Image">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <a href="https://www.amazonconservation.org/"><img src="nature_image1.jpg" alt="Nature Image 1"></a>
+            <a href="https://kilimanjaroonfoot.com/kilimanjaro/?gad_source=1&gclid=Cj0KCQiArrCvBhCNARIsAOkAGcVsWL-KqMRM8IxUuTQBQAaig6V8O2uCjIa9vM-w0S4Hl9cphpu3qu8aAg95EALw_wcB"><img src="nature_image2.jpg" alt="Nature Image 2"></a>
+            <a href="https://lake-baringo.com/trip/7-days-tour-to-baringo/"><img src="nature_image3.jpg" alt="Nature Image 3"></a>
+            <a href="https://www.kws.go.ke/content/mount-kenya-national-park-reserve"><img src="nature_image4.jpg" alt="Nature Image 4"></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <li class="menu-item"><img src="food_item1.jpg" alt="Food Item 1"><a href="https://lasvegascubancuisine.com/">Food Item 1</a></li>
+            <li class="menu-item"><img src="food_item2.jpg" alt="Food Item 2"><a href="https://www.mijomexican.com/?gad_source=1&gclid=Cj0KCQiArrCvBhCNARIsAOkAGcWhehf0YeuLMEAo2vxWK2WkGtEGAol5_OecdpYdMXLMspe-sQ9THtMaAg0MEALw_wcB">Food Item 2</a></li>
+            <li class="menu-item"><img src="food_item3.jpg" alt="Food Item 3"><a href="https://www.opentable.com/neighborhood/las-vegas/the-venetian-and-palazzo-restaurants">Food Item 3</a></li>
+            <li class="menu-item"><img src="food_item4.jpg" alt="Food Item 4"><a href="https://www.venetian-weymouth.com/">Food Item 4</a></li>
+        </ul>
+    </section>
+
+    
+</body>
+</html>
